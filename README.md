@@ -63,34 +63,29 @@ We model Aadhaar enrolment & update data as a **limited digital twin**:
 ├── requirements.txt
 └── README.md
 ```
-🧩 Key Features
-📊 Data Insights
+## 🧩 Key Features
 
-Age-wise enrolment & update distribution
+### 📊 Data Insights
+- Age-wise enrolment and update distribution  
+- State and district-level enrolment heatmaps  
+- Update frequency patterns as migration indicators  
+- Biometric authentication success and failure trend analysis  
+- Identification of peak operational stress periods  
 
-State & district-level enrolment heatmaps
+All insights are designed to directly support UIDAI’s operational planning and decision-making.
 
-Update frequency patterns (migration indicators)
+---
 
-Biometric success/failure trend analysis
+### 📈 Dashboard Capabilities
 
-Identification of peak stress periods
-
-All insights directly support UIDAI operational planning.
-
-📈 Dashboard Capabilities
-
-The prototype allows users to:
-
-Explore regional enrolment & update statistics
-
-Visualize temporal demand trends
-
-Identify high-stress operational zones
-
-Simulate demand using historical patterns
+The interactive prototype enables users to:
+- Explore regional enrolment and update statistics  
+- Visualize temporal demand and workload trends  
+- Identify high-stress operational zones  
+- Simulate demand scenarios using historical data  
 
 Built for clarity, speed, and accessibility.
+
 ```
 🛠️ Running Locally
 Install Dependencies
@@ -126,59 +121,53 @@ plt.ylabel("Total Enrolments")
 plt.show()
 
 ```
-📓 Full notebooks available in notebooks/.
+📓 Full notebooks are available in the `notebooks/` directory.
 
-📚 Dataset Information
+---
 
-Provided exclusively by UIDAI Hackathon:
+## 📚 Dataset Information
 
-Aadhaar Enrolment Data
+Provided exclusively as part of the **UIDAI Hackathon**:
+- Aadhaar Enrolment Data  
+- Aadhaar Update Records  
+- Demographic Distribution Data  
 
-Aadhaar Update Records
+❌ No external, personal, or sensitive data was used.
 
-Demographic Distribution Data
+---
 
-❌ No external or personal data used.
+## 🔐 Privacy, Ethics & Governance
 
-🔐 Privacy, Ethics & Governance
+- Aggregated and anonymized data only  
+- No individual-level inference or profiling  
+- No identity reconstruction  
+- Strict adherence to privacy-by-design principles  
 
-Aggregated & anonymized data only
+---
 
-No individual-level inference
+## 🏆 Submission Artifacts
 
-No identity reconstruction
+📄 **report.pdf** includes:
+- Problem statement  
+- Methodology  
+- Visual insights  
+- Prototype walkthrough  
+- Ethical considerations  
 
-Strict adherence to privacy-by-design
+---
 
-🏆 Submission Artifacts
+## 🙌 Acknowledgements
 
-📄 report.pdf includes:
+- **UIDAI** — datasets and hackathon challenge  
+- Open-source tools and frameworks:
+  - Python, Pandas, Matplotlib  
+  - Plotly  
+  - Next.js  
+  - Vercel  
 
-Problem statement
+---
 
-Methodology
+## 📬 Contact
 
-Visual insights
-
-Prototype walkthrough
-
-Ethical considerations
-
-🙌 Acknowledgements
-
-UIDAI — datasets & challenge
-
-Open-source tools:
-
-Python, Pandas, Matplotlib
-
-Plotly
-
-Next.js
-
-Vercel
-
-📬 Contact
-
-Project Lead: Chaitanya Patil
-GitHub: https://github.com/Sai-Pat
+**Project Lead:** Chaitanya Patil  
+**GitHub:** https://github.com/Sai-Pat
