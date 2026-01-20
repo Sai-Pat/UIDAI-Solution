@@ -1,36 +1,162 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 UIDAI Solution — Aadhaar Enrolment & Update Insights
 
-## Getting Started
+**Hackathon Submission — UIDAI 2026 Edition**
 
-First, run the development server:
+Welcome to the official repository for the UIDAI Hackathon project titled:
+
+> **A Privacy-Preserving Digital Twin for Aadhaar Enrolment & Update Operations**
+
+This project analyzes and models Aadhaar enrolment and update datasets to reveal trends, operational stress patterns, and demand indicators that can support informed decision making for UIDAI.
+
+---
+
+## 🔗 Live Prototype
+
+Explore our interactive demo deployed on Vercel:
+
+👉 https://uidai-solution.vercel.app/
+
+The prototype visualizes trends and scenarios derived from Aadhaar enrolment and update data, offering a dynamic understanding of system behaviour at scale.
+
+---
+
+## 🧠 Overview
+
+The solution transforms Aadhaar enrolment and update datasets into a **privacy-preserving operational model** — referred to as a *limited digital twin of Aadhaar services*. This model enables simulation of demand pressure, demographic patterns, and biometric reliability without exposing individual identities.
+
+Unlike general population simulation tools, this model strictly uses **aggregated** and **anonymized** Aadhaar system data to provide actionable insights for operational improvement.
+
+---
+
+## 📁 Contents
+
+.
+├── data/
+│ ├── aadhaar_enrolment.csv
+│ ├── aadhaar_updates.csv
+│ └── demographic_distribution.csv
+├── notebooks/
+│ ├── data_cleaning.ipynb
+│ ├── analysis_trends.ipynb
+│ └── visualization.ipynb
+├── prototype/
+│ ├── components/
+│ ├── pages/
+│ └── public/
+├── README.md
+├── report.pdf
+└── requirements.txt
+
+yaml
+Copy code
+
+---
+
+## 🧩 Features
+
+### 📊 Data Analysis & Insights
+- **Age-wise enrolment and update distribution**
+- **Regional heatmaps for enrolments**
+- **Update frequency patterns correlated with migration indicators**
+- **Biometric authentication success / failure trends**
+- **Temporal behaviour highlighting stress periods**
+
+Each metric was chosen to align with UIDAI’s operational goals and to maximize the utility of the provided datasets.
+
+---
+
+## 📈 Prototype Highlights
+
+The live dashboard enables users to:
+- Explore **state and district-level statistics**
+- Visualise trend charts for enrolment and updates
+- Simulate operational demand based on historical data
+- Understand stress zones where updates and biometric issues are frequent
+
+The interface is intuitive and responsive to support judges and stakeholders exploring insights without technical setup.
+
+---
+
+## 🛠️ Getting Started (Local Setup)
+
+To run the prototype locally:
+
+1. Install dependencies
 
 ```bash
+npm install
+# or
+yarn install
+Run development server
+
+bash
+Copy code
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 in your browser
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧪 Data Analysis (Python Notebooks)
+We performed data preprocessing, cleaning, aggregation, and visualization using Python. Key analysis includes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+python
+Copy code
+import pandas as pd
+import matplotlib.pyplot as plt
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+df = pd.read_csv("data/aadhaar_enrolment.csv")
 
-## Learn More
+age_summary = df.groupby("AgeGroup")["EnrolmentCount"].sum()
+age_summary.plot(kind="bar", title="Aadhaar Enrolment by Age Group")
+plt.xlabel("Age Group")
+plt.ylabel("Total Enrolments")
+plt.show()
+Notebooks are provided under notebooks/ for transparency and reproducibility.
 
-To learn more about Next.js, take a look at the following resources:
+📚 Dataset Sources
+All datasets used in this project were provided by UIDAI as part of the hackathon. These include:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Aadhaar Enrolment Data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Aadhaar Update Records
 
-## Deploy on Vercel
+Demographic Distribution Information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No external personal or sensitive data was used.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📎 Privacy, Ethics & Governance
+This solution strictly adheres to:
+
+Aggregation and anonymization standards
+
+Privacy-by-design principles
+
+No individual-level inference or profiling
+
+All insights are derived from operational trends and supported by visual evidence from the data.
+
+🏆 Hackathon Submission
+The consolidated PDF report (named report.pdf) included in this repo covers:
+
+Problem statement and approach
+
+Datasets and methodology
+
+Visualizations and insights
+
+Prototype walkthrough
+
+Ethical considerations
+
+🙌 Acknowledgements
+UIDAI for providing the dataset and challenge
+
+Open-source community for tools like Python, Pandas, Plotly, Next.js, etc.
+
+📬 Contact
+For questions or collaboration:
+
+Project lead: Chaitanya Patil
+
+GitHub: https://github.com/Sai-Pat
+
