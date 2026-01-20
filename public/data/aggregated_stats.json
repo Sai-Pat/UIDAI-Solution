@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "last_updated": "2026-01-20T12:37:59.174262",
+    "data_source": "real",
+    "total_records_processed": 4938837,
+    "data_accuracy": 100.0,
+    "accuracy_target": 80.0,
+    "accuracy_achieved": true
+  },
+  "metrics": {
+    "total_population": 49293148,
+    "avg_age": 35.0,
+    "mobile_linked_percent": 97.6,
+    "states_covered": 41,
+    "districts_covered": 1031,
+    "avg_enrolment_rate": 5.6
+  },
+  "state_distribution": {
+    "Andaman & Nicobar Islands": 1059,
+    "Andaman and Nicobar Islands": 6187,
+    "Andhra Pradesh": 2295505,
+    "Arunachal Pradesh": 36443,
+    "Assam": 1012578,
+    "Bihar": 4814350,
+    "Chandigarh": 83361,
+    "Chhattisgarh": 2005434,
+    "Dadra and Nagar Haveli": 6033,
+    "Dadra and Nagar Haveli and Daman and Diu": 3740,
+    "Daman and Diu": 1552,
+    "Delhi": 1438934,
+    "Goa": 35120,
+    "Gujarat": 1824327,
+    "Haryana": 1166140,
+    "Himachal Pradesh": 149214,
+    "Jammu and Kashmir": 406776,
+    "Jharkhand": 1401189,
+    "Karnataka": 1695285,
+    "Kerala": 744952,
+    "Ladakh": 5735,
+    "Lakshadweep": 1176,
+    "Madhya Pradesh": 2912938,
+    "Maharashtra": 5054602,
+    "Manipur": 301549,
+    "Meghalaya": 87378,
+    "Mizoram": 41906,
+    "Nagaland": 36791,
+    "Odisha": 1083237,
+    "Orissa": 28758,
+    "Pondicherry": 7459,
+    "Puducherry": 25304,
+    "Punjab": 881895,
+    "Rajasthan": 2817615,
+    "Sikkim": 20340,
+    "Tamil Nadu": 2212228,
+    "Telangana": 1629908,
+    "Tripura": 138013,
+    "Uttar Pradesh": 8542328,
+    "Uttarakhand": 463637,
+    "West Bengal": 3872172
+  },
+  "age_distribution": {
+    "0-18": 4863424,
+    "19+": 44431763
+  },
+  "state_data": {
+    "Andaman & Nicobar Islands": {
+      "population": 1059,
+      "children": 13,
+      "adults": 1046,
+      "enrolment_rate": 0.47,
+      "biometric_coverage": 100.0,
+      "districts": 3,
+      "pincodes": 12
+    },
+    "Andaman and Nicobar Islands": {
+      "population": 6187,
+      "children": 604,
+      "adults": 5583,
+      "enrolment_rate": 0.44,
+      "biometric_coverage": 100.0,
+      "districts": 3,
+      "pincodes": 22
+    },
+    "Andhra Pradesh": {
+      "population": 2295505,
+      "children": 321143,
+      "adults": 1974362,
+      "enrolment_rate": 0.66,
+      "biometric_coverage": 100.0,
+      "districts": 45,
+      "pincodes": 1846
+    },
+    "Arunachal Pradesh": {
+      "population": 36443,
+      "children": 5783,
+      "adults": 30660,
+      "enrolment_rate": 6.55,
+      "biometric_coverage": 100.0,
+      "districts": 25,
+      "pincodes": 53
+    },
+    "Assam": {
+      "population": 1012578,
+      "children": 84480,
+      "adults": 928098,
+      "enrolment_rate": 8.79,
+      "biometric_coverage": 97.05,
+      "districts": 37,
+      "pincodes": 574
+    },
+    "Bihar": {
+      "population": 4814350,
+      "children": 380023,
+      "adults": 4434327,
+      "enrolment_rate": 7.2,
+      "biometric_coverage": 100.0,
+      "districts": 47,
+      "pincodes": 921
+    },
+    "Chandigarh": {
+      "population": 83361,
+      "children": 13133,
+      "adults": 70228,
+      "enrolment_rate": 0.3,
+      "biometric_coverage": 89.35,
+      "districts": 3,
+      "pincodes": 26
+    },
+    "Chhattisgarh": {
+      "population": 2005434,
+      "children": 165207,
+      "adults": 1840227,
+      "enrolment_rate": 1.04,
+      "biometric_coverage": 100.0,
+      "districts": 39,
+      "pincodes": 268
+    },
+    "Dadra and Nagar Haveli": {
+      "population": 6033,
+      "children": 1310,
+      "adults": 4723,
+      "enrolment_rate": 1.24,
+      "biometric_coverage": 100.0,
+      "districts": 1,
+      "pincodes": 4
+    },
+    "Dadra and Nagar Haveli and Daman and Diu": {
+      "population": 3740,
+      "children": 306,
+      "adults": 3434,
+      "enrolment_rate": 1.12,
+      "biometric_coverage": 67.7,
+      "districts": 3,
+      "pincodes": 10
+    },
+    "Daman and Diu": {
+      "population": 1552,
+      "children": 234,
+      "adults": 1318,
+      "enrolment_rate": 0.84,
+      "biometric_coverage": 100.0,
+      "districts": 2,
+      "pincodes": 6
+    },
+    "Delhi": {
+      "population": 1438934,
+      "children": 175535,
+      "adults": 1263399,
+      "enrolment_rate": 1.76,
+      "biometric_coverage": 90.65,
+      "districts": 13,
+      "pincodes": 93
+    },
+    "Goa": {
+      "population": 35120,
+      "children": 3275,
+      "adults": 31845,
+      "enrolment_rate": 1.19,
+      "biometric_coverage": 100.0,
+      "districts": 5,
+      "pincodes": 88
+    },
+    "Gujarat": {
+      "population": 1824327,
+      "children": 208474,
+      "adults": 1615853,
+      "enrolment_rate": 4.8,
+      "biometric_coverage": 100.0,
+      "districts": 39,
+      "pincodes": 1030
+    },
+    "Haryana": {
+      "population": 1166140,
+      "children": 139314,
+      "adults": 1026826,
+      "enrolment_rate": 0.88,
+      "biometric_coverage": 100.0,
+      "districts": 23,
+      "pincodes": 305
+    },
+    "Himachal Pradesh": {
+      "population": 149214,
+      "children": 19424,
+      "adults": 129790,
+      "enrolment_rate": 0.57,
+      "biometric_coverage": 100.0,
+      "districts": 14,
+      "pincodes": 449
+    },
+    "Jammu and Kashmir": {
+      "population": 406776,
+      "children": 57850,
+      "adults": 348926,
+      "enrolment_rate": 2.0,
+      "biometric_coverage": 100.0,
+      "districts": 25,
+      "pincodes": 205
+    },
+    "Jharkhand": {
+      "population": 1401189,
+      "children": 99376,
+      "adults": 1301813,
+      "enrolment_rate": 4.21,
+      "biometric_coverage": 100.0,
+      "districts": 33,
+      "pincodes": 366
+    },
+    "Karnataka": {
+      "population": 1695285,
+      "children": 264981,
+      "adults": 1430304,
+      "enrolment_rate": 2.59,
+      "biometric_coverage": 100.0,
+      "districts": 54,
+      "pincodes": 1355
+    },
+    "Kerala": {
+      "population": 744952,
+      "children": 61064,
+      "adults": 683888,
+      "enrolment_rate": 2.85,
+      "biometric_coverage": 100.0,
+      "districts": 15,
+      "pincodes": 1416
+    },
+    "Ladakh": {
+      "population": 5735,
+      "children": 1375,
+      "adults": 4360,
+      "enrolment_rate": 2.63,
+      "biometric_coverage": 100.0,
+      "districts": 2,
+      "pincodes": 15
+    },
+    "Lakshadweep": {
+      "population": 1176,
+      "children": 170,
+      "adults": 1006,
+      "enrolment_rate": 0.94,
+      "biometric_coverage": 100.0,
+      "districts": 1,
+      "pincodes": 9
+    },
+    "Madhya Pradesh": {
+      "population": 2912938,
+      "children": 407098,
+      "adults": 2505840,
+      "enrolment_rate": 4.32,
+      "biometric_coverage": 100.0,
+      "districts": 60,
+      "pincodes": 796
+    },
+    "Maharashtra": {
+      "population": 5054602,
+      "children": 273322,
+      "adults": 4781280,
+      "enrolment_rate": 1.79,
+      "biometric_coverage": 100.0,
+      "districts": 53,
+      "pincodes": 1609
+    },
+    "Manipur": {
+      "population": 301549,
+      "children": 41464,
+      "adults": 260085,
+      "enrolment_rate": 2.76,
+      "biometric_coverage": 93.71,
+      "districts": 13,
+      "pincodes": 54
+    },
+    "Meghalaya": {
+      "population": 87378,
+      "children": 8426,
+      "adults": 78952,
+      "enrolment_rate": 100.0,
+      "biometric_coverage": 100.0,
+      "districts": 13,
+      "pincodes": 67
+    },
+    "Mizoram": {
+      "population": 41906,
+      "children": 5302,
+      "adults": 36604,
+      "enrolment_rate": 4.27,
+      "biometric_coverage": 100.0,
+      "districts": 12,
+      "pincodes": 50
+    },
+    "Nagaland": {
+      "population": 36791,
+      "children": 4314,
+      "adults": 32477,
+      "enrolment_rate": 30.1,
+      "biometric_coverage": 100.0,
+      "districts": 17,
+      "pincodes": 44
+    },
+    "Odisha": {
+      "population": 1083237,
+      "children": 145643,
+      "adults": 937594,
+      "enrolment_rate": 2.12,
+      "biometric_coverage": 100.0,
+      "districts": 46,
+      "pincodes": 937
+    },
+    "Orissa": {
+      "population": 28758,
+      "children": 1853,
+      "adults": 26905,
+      "enrolment_rate": 2.09,
+      "biometric_coverage": 100.0,
+      "districts": 36,
+      "pincodes": 654
+    },
+    "Pondicherry": {
+      "population": 7459,
+      "children": 607,
+      "adults": 6852,
+      "enrolment_rate": 1.06,
+      "biometric_coverage": 100.0,
+      "districts": 3,
+      "pincodes": 35
+    },
+    "Puducherry": {
+      "population": 25304,
+      "children": 4089,
+      "adults": 21215,
+      "enrolment_rate": 0.63,
+      "biometric_coverage": 100.0,
+      "districts": 4,
+      "pincodes": 35
+    },
+    "Punjab": {
+      "population": 881895,
+      "children": 56866,
+      "adults": 825029,
+      "enrolment_rate": 1.76,
+      "biometric_coverage": 100.0,
+      "districts": 27,
+      "pincodes": 526
+    },
+    "Rajasthan": {
+      "population": 2817615,
+      "children": 257224,
+      "adults": 2560391,
+      "enrolment_rate": 4.21,
+      "biometric_coverage": 100.0,
+      "districts": 46,
+      "pincodes": 989
+    },
+    "Sikkim": {
+      "population": 20340,
+      "children": 1555,
+      "adults": 18785,
+      "enrolment_rate": 5.67,
+      "biometric_coverage": 100.0,
+      "districts": 10,
+      "pincodes": 22
+    },
+    "Tamil Nadu": {
+      "population": 2212228,
+      "children": 315638,
+      "adults": 1896590,
+      "enrolment_rate": 1.74,
+      "biometric_coverage": 100.0,
+      "districts": 45,
+      "pincodes": 2089
+    },
+    "Telangana": {
+      "population": 1629908,
+      "children": 242259,
+      "adults": 1387649,
+      "enrolment_rate": 1.57,
+      "biometric_coverage": 100.0,
+      "districts": 41,
+      "pincodes": 658
+    },
+    "Tripura": {
+      "population": 138013,
+      "children": 11791,
+      "adults": 126222,
+      "enrolment_rate": 2.83,
+      "biometric_coverage": 100.0,
+      "districts": 9,
+      "pincodes": 86
+    },
+    "Uttar Pradesh": {
+      "population": 8542328,
+      "children": 790308,
+      "adults": 7752020,
+      "enrolment_rate": 5.82,
+      "biometric_coverage": 100.0,
+      "districts": 90,
+      "pincodes": 1760
+    },
+    "Uttarakhand": {
+      "population": 463637,
+      "children": 49926,
+      "adults": 413711,
+      "enrolment_rate": 1.25,
+      "biometric_coverage": 100.0,
+      "districts": 15,
+      "pincodes": 296
+    },
+    "West Bengal": {
+      "population": 3872172,
+      "children": 242549,
+      "adults": 3629623,
+      "enrolment_rate": 2.58,
+      "biometric_coverage": 65.19,
+      "districts": 59,
+      "pincodes": 1364
+    }
+  }
+}
